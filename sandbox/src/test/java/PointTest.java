@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 public class PointTest {
     @Test
     public void testPoint() {
-        Point p1 = new Point(8,12);
-        Point p2 = new Point(6, 3);
-        Assertions.assertEquals(p1.distance(p2), 9.219544457292887);
+        Point p1 = new Point(9,7);
+        Point p2 = new Point(4, 7);
+        Assertions.assertEquals(p1.distance(p2), 5.0);
     }
 }
