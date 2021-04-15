@@ -8,8 +8,8 @@ public class Point {
         this.a = a1;
         this.b = b1;
     }
-    public double distance(Point p1, Point p2) {
-        return Math.sqrt((p2.a - p1.a) * (p2.a - p1.a) + (p2.b - p1.b) * (p2.b - p1.b));
+    public double distance( Point p2) {
+        return Math.sqrt((p2.a - this.a) * (p2.a - this.a) + (p2.b - this.b) * (p2.b - this.b));
     }
 
     @Override
